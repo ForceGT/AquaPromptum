@@ -20,8 +20,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         
         if let statusButton = statusItem.button {
-            statusButton.image = NSImage(named:NSImage.Name("StatusBarImage"))
+            statusButton.image = NSImage(named: "StatusBarImage")
             statusButton.action = #selector(togglePopover)
+            statusButton.alternateImage = NSImage(named: "StatusBarImage")
         }
         
         self.popover = NSPopover()
@@ -29,7 +30,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
         self.popover.contentSize = NSSize(width: 450, height: 450)
         self.popover.contentViewController = NSHostingController(
             rootView:ContentView())
-        self.popover.setValue(true, forKey: "shouldHideAnchor")
+        
     }
     
     @objc func togglePopover() {

@@ -43,12 +43,21 @@ struct ContentView: View {
                 
             }
             Spacer().frame(height: 20)
-            Toggle("Play Sound", isOn: $playSoundToggle)
-                .toggleStyle(SwitchToggleStyle())
-            Divider()
-            Toggle("Launch on Startup", isOn: $startupToggle)
-                .toggleStyle(SwitchToggleStyle())
-            Spacer().frame(height: 50)
+            Group{
+                Toggle("Play Sound", isOn: $playSoundToggle)
+                    .toggleStyle(SwitchToggleStyle())
+                Divider()
+                Toggle("Launch on Startup", isOn: $startupToggle)
+                    .toggleStyle(SwitchToggleStyle())
+                Divider()
+            }
+            Button("Quit App") {
+                viewModel.closeApp()
+            }
+            .frame(width: 100, height: 40)
+            .font(.body)
+            .foregroundColor(.white)
+            .cornerRadius(10)
             Text("Made with ❤️ in India")
         }
         .padding()

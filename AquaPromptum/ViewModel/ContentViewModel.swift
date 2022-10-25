@@ -24,4 +24,8 @@ class ContentViewModel : ObservableObject {
     func startTimer(){
         reminder.reset()
     }
+    
+    func closeApp(){
+        NSApplication.shared.terminate(nil)
+    }
 }
