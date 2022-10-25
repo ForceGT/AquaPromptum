@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1812F3CA2906546C008DBA31 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812F3C92906546C008DBA31 /* Preferences.swift */; };
+		1812F3CD29065D17008DBA31 /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812F3CC29065D17008DBA31 /* Interval.swift */; };
+		1812F3CF29065EEC008DBA31 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812F3CE29065EEC008DBA31 /* Reminder.swift */; };
+		1812F3D129066F4D008DBA31 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812F3D029066F4D008DBA31 /* ContentViewModel.swift */; };
+		18B0CA562905749F00988033 /* AquaPromptumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CA552905749F00988033 /* AquaPromptumApp.swift */; };
+		18B0CA582905749F00988033 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CA572905749F00988033 /* ContentView.swift */; };
+		18B0CA5A290574A200988033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B0CA59290574A200988033 /* Assets.xcassets */; };
+		18B0CA5D290574A200988033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B0CA5C290574A200988033 /* Preview Assets.xcassets */; };
+		18B0CA652905A92500988033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CA642905A92500988033 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1812F3C92906546C008DBA31 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		1812F3CC29065D17008DBA31 /* Interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
+		1812F3CE29065EEC008DBA31 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		1812F3D029066F4D008DBA31 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		18B0CA522905749F00988033 /* AquaPromptum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaPromptum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B0CA552905749F00988033 /* AquaPromptumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaPromptumApp.swift; sourceTree = "<group>"; };
+		18B0CA572905749F00988033 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18B0CA59290574A200988033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B0CA5C290574A200988033 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18B0CA5E290574A200988033 /* AquaPromptum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AquaPromptum.entitlements; sourceTree = "<group>"; };
+		18B0CA642905A92500988033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B0CA4F2905749F00988033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1811F3A72905BD690009CA69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1811F3A82905BD710009CA69 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1812F3D029066F4D008DBA31 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1811F3A92905BD770009CA69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18B0CA572905749F00988033 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1811F3AA2905BD800009CA69 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				1812F3C92906546C008DBA31 /* Preferences.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		1812F3CB29065D08008DBA31 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1812F3CC29065D17008DBA31 /* Interval.swift */,
+				1812F3CE29065EEC008DBA31 /* Reminder.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		18B0CA492905749E00988033 = {
+			isa = PBXGroup;
+			children = (
+				18B0CA542905749F00988033 /* AquaPromptum */,
+				18B0CA532905749F00988033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B0CA532905749F00988033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B0CA522905749F00988033 /* AquaPromptum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B0CA542905749F00988033 /* AquaPromptum */ = {
+			isa = PBXGroup;
+			children = (
+				1812F3CB29065D08008DBA31 /* Utils */,
+				1811F3AA2905BD800009CA69 /* Preferences */,
+				1811F3A92905BD770009CA69 /* Views */,
+				1811F3A82905BD710009CA69 /* ViewModel */,
+				1811F3A72905BD690009CA69 /* Model */,
+				18B0CA552905749F00988033 /* AquaPromptumApp.swift */,
+				18B0CA59290574A200988033 /* Assets.xcassets */,
+				18B0CA5E290574A200988033 /* AquaPromptum.entitlements */,
+				18B0CA5B290574A200988033 /* Preview Content */,
+				18B0CA642905A92500988033 /* AppDelegate.swift */,
+			);
+			path = AquaPromptum;
+			sourceTree = "<group>";
+		};
+		18B0CA5B290574A200988033 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18B0CA5C290574A200988033 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B0CA512905749F00988033 /* AquaPromptum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B0CA61290574A200988033 /* Build configuration list for PBXNativeTarget "AquaPromptum" */;
+			buildPhases = (
+				18B0CA4E2905749F00988033 /* Sources */,
+				18B0CA4F2905749F00988033 /* Frameworks */,
+				18B0CA502905749F00988033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AquaPromptum;
+			productName = AquaPromptum;
+			productReference = 18B0CA522905749F00988033 /* AquaPromptum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B0CA4A2905749E00988033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					18B0CA512905749F00988033 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 18B0CA4D2905749E00988033 /* Build configuration list for PBXProject "AquaPromptum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B0CA492905749E00988033;
+			productRefGroup = 18B0CA532905749F00988033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B0CA512905749F00988033 /* AquaPromptum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B0CA502905749F00988033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B0CA5D290574A200988033 /* Preview Assets.xcassets in Resources */,
+				18B0CA5A290574A200988033 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B0CA4E2905749F00988033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1812F3CD29065D17008DBA31 /* Interval.swift in Sources */,
+				18B0CA652905A92500988033 /* AppDelegate.swift in Sources */,
+				18B0CA582905749F00988033 /* ContentView.swift in Sources */,
+				1812F3D129066F4D008DBA31 /* ContentViewModel.swift in Sources */,
+				1812F3CF29065EEC008DBA31 /* Reminder.swift in Sources */,
+				1812F3CA2906546C008DBA31 /* Preferences.swift in Sources */,
+				18B0CA562905749F00988033 /* AquaPromptumApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18B0CA5F290574A200988033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18B0CA60290574A200988033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		18B0CA62290574A200988033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AquaPromptum/AquaPromptum.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AquaPromptum/Preview Content\"";
+				DEVELOPMENT_TEAM = 9Y43NUXPR4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gtxtreme.AquaPromptum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		18B0CA63290574A200988033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AquaPromptum/AquaPromptum.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AquaPromptum/Preview Content\"";
+				DEVELOPMENT_TEAM = 9Y43NUXPR4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gtxtreme.AquaPromptum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B0CA4D2905749E00988033 /* Build configuration list for PBXProject "AquaPromptum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B0CA5F290574A200988033 /* Debug */,
+				18B0CA60290574A200988033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B0CA61290574A200988033 /* Build configuration list for PBXNativeTarget "AquaPromptum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B0CA62290574A200988033 /* Debug */,
+				18B0CA63290574A200988033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B0CA4A2905749E00988033 /* Project object */;
+}
