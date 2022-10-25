@@ -17,9 +17,15 @@ customisations are intended to be a part of the project
   
 
 ## How to use
+
+### General user
 - Download the latest binary(.app file) from the Releases tab
 - Double click on your mac and set the security preferences if required
 - You're all set to go
+
+### Programmer/ Developer
+- Simply clone the project using `git clone` or similar functionality
+- Open the project in Xcode and start hacking
 
 
 ## Credits
