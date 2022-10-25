@@ -26,5 +26,11 @@ customisations are intended to be a part of the project
 <a href="https://github.com/ForceGT" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>   
+
+
+## Credits
+- [Mizu](https://github.com/esoxjem/Mizu):
+For inspiring the idea to actually have something like this. While Mizu is a UIKit project, mine is a SwiftUI project. The difference is also in the
+architecture of both the projects: Mine is MVVM and Mizu is MVP. 
  
 
