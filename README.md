@@ -10,12 +10,22 @@
 <br/>  
 AquaPromptum aims to be a simple MacOS Menu bar app to remind you to drink water, at regular customisable intervals. It aims to be simple and no complex 
 customisations are intended to be a part of the project
+
+## Screenshots/ Previews
+
+![image](https://user-images.githubusercontent.com/31688051/197845016-87680d73-0402-45ef-9bb9-8a9fa753ecde.png)
   
 
 ## How to use
+
+### General user
 - Download the latest binary(.app file) from the Releases tab
 - Double click on your mac and set the security preferences if required
 - You're all set to go
+
+### Programmer/ Developer
+- Simply clone the project using `git clone` or similar functionality
+- Open the project in Xcode and start hacking
 
 
 ## Credits
